@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include "Globals.h"
 #include <stdio.h>
-#include <pattern_bgr.h>
 
 Universe::Universe(Vector2* size)
 {
@@ -20,7 +19,6 @@ void Universe::GenerateCells()
     for (int x = 0; x < universSize->X; x++)
         for (int y = 0; y < universSize->Y; y++)
             cells[x][y] = new Cell(new Vector2(x, y), rand() % 4 == 0, universSize);
-            //cells[x][y] = new Cell(new Vector2(x, y), pattern_bgr[ConvertImageCoordonatesToMemoryLocation(x, y)] != 255, universSize);
 }
 
 void Universe::PopulateNeighbourgs()
@@ -42,7 +40,6 @@ void Universe::Reset()
 {
     for (int x = 0; x < universSize->X; x++)
         for (int y = 0; y < universSize->Y; y++)
-            //cells[x][y] = new Cell(new Vector2(x, y), rand() % 2 == 0, universSize);
             cells[x][y]->SetNewstate(rand() % 4 == 0);
 }
 

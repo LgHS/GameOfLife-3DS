@@ -22,6 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{84F2C3A4-AE18-4331-A5F8-8E216D498D46}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
+    <ProjectName>Game Of Life - 3DS - Club Matrix</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
