@@ -8,12 +8,8 @@ script:
   devkitpro/devkitarm /bin/bash -ex /GameOfLife-3DS-ClubMatrix/.travis/build.sh
 deploy:
   provider: releases
-  skip_cleanup: true
   api_key:
-    secure: <TODO>
+    secure: GSEhAhjKDqdts/izdtA/U5LY6M5weRciPIXl0/JDdU1jezJNB5e9ibfU38E/BIrpuYJO4mBbPZAsjzbIqDVceSYqdZNY1nGE5WPpmHNR+mh/zF8hV3ag9x8TcU5KewxeKXMyKLBGSyOaijfuiGuJ11EAfIPt/zHd2yd4qZ6uCDy4+JndL3CHORPfwSdan4HkFVM/qsyMkAQYJ9TVVaRy5cOQZlPTisP3keVFD0gnYtULsEXGTtA6jQByI+/XbBZ03yd/nIQlGbEb994rLI8rn9f/6Z4Krtk0TfxJnE8e7Z7vm39dffUdRrLCEdqAJ5jGQ5m389YQ93deEm47fR86kekHJepV06faEkp+sNMJZxGfJGLe8t42Ik2bj93YMIxTe6sr+xzOES6UXlWduPagW0l1Q1oPQKQWpDG2dGfPMvK99w+TYUWi4qOuiPdRmZiWi2UJaEdzk3+0K6ku7EWRGv5qvUxts+TJ+WQ49IE3An0o2XWUrFd3LIZfOL8GjxDLD0CZeupA+gsbHfjRblTVcixZnGojJ0jmt9nrZCHEHXdc3GiGm1VzPzT2UFHTsxdPMsoju/JcUgEvAbNSQ62WS0TZa+pEfD3lNkdT940dlc+mIg35uAW7HOgIvvmyid2jJ6lxq1lda9yxlYcT86AUhH+JnhIG9o9lLRKh95Pn5nY=
   file: GameOfLife-3DS-ClubMatrix.3dsx
   on:
-      tags: true
-env:
-  global:
-    secure: <TODO>
+    repo: LgHS/GameOfLife-3DS-ClubMatrix
