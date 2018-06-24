@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Manu404/GameOfLife-3DS.svg?branch=master)](https://travis-ci.org/Manu404/GameOfLife-3DS)
+[![Build Status](https://travis-ci.org/LgHS/GameOfLife-3DS-ClubMatrix.svg?branch=master)](https://travis-ci.org/LgHS/GameOfLife-3DS-ClubMatrix)
 
 # Conway's Game of Life for Nintendo 3DS driving Club Mate matrix
 
