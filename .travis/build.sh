@@ -6,4 +6,4 @@ cd /GameOfLife-3DS-ClubMatrix
 
 sudo apt-get install -y imagemagick
 
-make
+sudo make
