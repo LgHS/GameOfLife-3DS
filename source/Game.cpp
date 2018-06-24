@@ -13,7 +13,7 @@
 Game::Game()
 {
     InitializeSystem();
-    //InitializeOPCClient();
+    InitializeOPCClient();
     InitializeUnivers();
     InitializeColors();
 }
@@ -34,7 +34,7 @@ void Game::RunMainLoop()
         if (frameCount % speedFactor == 0)
             universe->Compute();
 
-        //SendOPCFrame();
+        SendOPCFrame();
 
         RenderTopScreen();
 

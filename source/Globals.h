@@ -7,10 +7,10 @@
 #define WIDTH 400
 #define HEIGTH 240
 
-#define CELL_SIZE 2
+#define CELL_SIZE 10
 
-#define UNIVERSE_WIDTH 200
-#define UNIVERSE_HEIGHT 120
+#define UNIVERSE_WIDTH 24
+#define UNIVERSE_HEIGHT 20
 
 #define BOX_HEIGHT 5
 #define BOX_WIDHT  4
